@@ -9,3 +9,4 @@ let rec fold f a xs = match xs with
 let rec fold_right f xs a = match xs with
 | [] -> a
 | x :: xt -> f x (fold_right f xt a)
+

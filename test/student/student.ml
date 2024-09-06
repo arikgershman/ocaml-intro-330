@@ -1,6 +1,8 @@
 open OUnit2
 open Project1.Basics
 
+(*These tests are currently the first of each corresponding public test. Feel free to modify this file as you wish.*)
+
 let test_abs _ = 
   assert_equal 1 (abs 1) ~msg:"test_abs (1)"
 

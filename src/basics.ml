@@ -89,7 +89,7 @@ in (vals1) @ (vals2)
 
 let rec max_func_chain init funcs = let vals = let rec helper init funcs ret prev = match funcs with
 [] -> ret
-| f::t -> helper init t ((f init)::(f prev)::ret) (f prev)
+| f::t -> (map f ret) @ (helper init t ((f init)::(f prev)::ret) (f prev))
 in helper init funcs [init] init
 in let rec max v c = match v with
 [] -> c

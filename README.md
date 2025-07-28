@@ -54,4 +54,35 @@ These constraints challenged me to think purely functionally and leverage OCaml'
 * `src/funs.ml`: (Provided) Includes implementations for higher-order functions used in Part 4.
 * `src/basics.mli`, `src/funs.mli`: (Provided) Interface files defining function signatures.
 * `test/`: Contains testing infrastructure (public and student tests).
-* 
+
+## How to Run / Test the Project
+
+To run and test this OCaml project, ensure you have OCaml version 4.13.0 or newer installed. The project uses `dune` as its build system.
+
+1.  **Build the Project:**
+    Compile your code:
+    ```bash
+    dune build
+    ```
+
+2.  **Run All Tests (Public and Student):**
+    Execute all available tests:
+    ```bash
+    dune runtest -f
+    ```
+
+3.  **Run Specific Test File (e.g., public tests):**
+    To run tests from a particular file:
+    ```bash
+    dune runtest -f test/public
+    ```
+
+    (Replace `test/public` with the path to your desired test file.)
+
+4.  **Interactive Testing with Utop:**
+    For an interactive OCaml top-level environment with your project functions loaded:
+    ```bash
+    dune utop src
+    ```
+
+    In `utop`, all commands must end with `;;`. Exit `utop` by typing `#quit;;` or pressing `Ctrl-D` / `Cmd-D`.

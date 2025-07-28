@@ -4,8 +4,6 @@ This repository contains my solutions to my first project, an OCaml warm-up assi
 
 The goal was to implement a series of functions adhering to strict functional programming paradigms and specific constraints, providing a solid foundation in OCaml syntax and problem-solving.
 
----
-
 ## Project Overview
 
 This project is divided into four main parts, each building on fundamental OCaml concepts:
@@ -41,8 +39,6 @@ Implementation of functions strictly using `map`, `fold`, or `fold_right` from t
 * `uniq lst`: Removes duplicate elements from a list (re-implemented using HOF).
 * `every_xth x lst`: Extracts every `x`th element from a list (re-implemented using HOF).
 
----
-
 ## Constraints & Learning
 
 A key aspect of this project was adhering to specific "Ground Rules":
@@ -52,17 +48,10 @@ A key aspect of this project was adhering to specific "Ground Rules":
 
 These constraints challenged me to think purely functionally and leverage OCaml's strengths in pattern matching and recursion (where permitted) or higher-order abstractions.
 
----
-
 ## Repository Structure
 
 * `src/basics.ml`: Contains the implementation of all functions for the project.
 * `src/funs.ml`: (Provided) Includes implementations for higher-order functions used in Part 4.
 * `src/basics.mli`, `src/funs.mli`: (Provided) Interface files defining function signatures.
 * `test/`: Contains testing infrastructure (public and student tests).
-
----
-
-## Academic Integrity Note
-
-This project was completed as an individual assignment in accordance with the University of Maryland's academic integrity policies. The code represents my own work and understanding of the concepts.
+* 

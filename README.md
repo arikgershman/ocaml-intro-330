@@ -1,6 +1,6 @@
 # OCaml Warmup 🐪
 
-This repository contains my solutions to my first project, an OCaml warm-up assignment from my CMSC330: Organization of Programming Languages course at UMD. This project served as an introduction to functional programming in OCaml, focusing on core concepts like non-recursive functions, recursive functions, list manipulation, and higher-order functions.
+This repository contains my solutions to my first project, an OCaml warm-up assignment, from my CMSC330: Organization of Programming Languages course at UMD. This project served as an introduction to functional programming in OCaml, focusing on core concepts like non-recursive functions, recursive functions, list manipulation, and higher-order functions.
 
 The goal was to implement a series of functions adhering to strict functional programming paradigms and specific constraints, providing a solid foundation in OCaml syntax and problem-solving.
 
